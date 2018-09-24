@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30980B120B593C300EBCA21 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30980AF20B593C300EBCA21 /* CalculatorBrain.swift */; };
+		F30980B220B593C300EBCA21 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30980B020B593C300EBCA21 /* CalculatorViewController.swift */; };
 		F3B0466720B4022700ECB432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0466620B4022700ECB432 /* AppDelegate.swift */; };
-		F3B0466920B4022700ECB432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0466820B4022700ECB432 /* ViewController.swift */; };
 		F3B0466C20B4022700ECB432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B0466A20B4022700ECB432 /* Main.storyboard */; };
 		F3B0466E20B4022800ECB432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B0466D20B4022800ECB432 /* Assets.xcassets */; };
 		F3B0467120B4022800ECB432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B0466F20B4022800ECB432 /* LaunchScreen.storyboard */; };
 		F3B0467C20B4022800ECB432 /* AdvancedGraphicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0467B20B4022800ECB432 /* AdvancedGraphicsTests.swift */; };
 		F3B0468720B4022800ECB432 /* AdvancedGraphicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0468620B4022800ECB432 /* AdvancedGraphicsUITests.swift */; };
+		F3B0469620B4036300ECB432 /* AdvancedGraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0469520B4036300ECB432 /* AdvancedGraphController.swift */; };
+		F3B0469820B4039000ECB432 /* AdvancedGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0469720B4039000ECB432 /* AdvancedGraphView.swift */; };
+		F3B0469A20B40A5600ECB432 /* AxesDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0469920B40A5600ECB432 /* AxesDrawer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F30980AF20B593C300EBCA21 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		F30980B020B593C300EBCA21 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		F3B0466320B4022700ECB432 /* AdvancedGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B0466620B4022700ECB432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3B0466820B4022700ECB432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3B0466B20B4022700ECB432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3B0466D20B4022800ECB432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B0467020B4022800ECB432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		F3B0468220B4022800ECB432 /* AdvancedGraphicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedGraphicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B0468620B4022800ECB432 /* AdvancedGraphicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGraphicsUITests.swift; sourceTree = "<group>"; };
 		F3B0468820B4022800ECB432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B0469520B4036300ECB432 /* AdvancedGraphController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGraphController.swift; sourceTree = "<group>"; };
+		F3B0469720B4039000ECB432 /* AdvancedGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGraphView.swift; sourceTree = "<group>"; };
+		F3B0469920B40A5600ECB432 /* AxesDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AxesDrawer.swift; path = ../../../../Downloads/AxesDrawer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		F3B0466520B4022700ECB432 /* AdvancedGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				F3B0466620B4022700ECB432 /* AppDelegate.swift */,
-				F3B0466820B4022700ECB432 /* ViewController.swift */,
+				F30980AF20B593C300EBCA21 /* CalculatorBrain.swift */,
+				F30980B020B593C300EBCA21 /* CalculatorViewController.swift */,
 				F3B0466A20B4022700ECB432 /* Main.storyboard */,
-				F3B0466D20B4022800ECB432 /* Assets.xcassets */,
-				F3B0466F20B4022800ECB432 /* LaunchScreen.storyboard */,
+				F3B0469720B4039000ECB432 /* AdvancedGraphView.swift */,
+				F3B0469520B4036300ECB432 /* AdvancedGraphController.swift */,
+				F3B0469920B40A5600ECB432 /* AxesDrawer.swift */,
 				F3B0467220B4022800ECB432 /* Info.plist */,
+				F3B0469420B4026000ECB432 /* Supporting Files */,
 			);
 			path = AdvancedGraphics;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				F3B0468820B4022800ECB432 /* Info.plist */,
 			);
 			path = AdvancedGraphicsUITests;
+			sourceTree = "<group>";
+		};
+		F3B0469420B4026000ECB432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B0466620B4022700ECB432 /* AppDelegate.swift */,
+				F3B0466D20B4022800ECB432 /* Assets.xcassets */,
+				F3B0466F20B4022800ECB432 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B0466920B4022700ECB432 /* ViewController.swift in Sources */,
+				F30980B220B593C300EBCA21 /* CalculatorViewController.swift in Sources */,
+				F3B0469820B4039000ECB432 /* AdvancedGraphView.swift in Sources */,
+				F3B0469A20B40A5600ECB432 /* AxesDrawer.swift in Sources */,
+				F3B0469620B4036300ECB432 /* AdvancedGraphController.swift in Sources */,
+				F30980B120B593C300EBCA21 /* CalculatorBrain.swift in Sources */,
 				F3B0466720B4022700ECB432 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,12 +455,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4283R63P3;
 				INFOPLIST_FILE = AdvancedGraphics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = stooper.AdvancedGraphics;
+				PRODUCT_BUNDLE_IDENTIFIER = stooperOmitch.AdvancedGraphics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +473,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4283R63P3;
 				INFOPLIST_FILE = AdvancedGraphics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = stooper.AdvancedGraphics;
+				PRODUCT_BUNDLE_IDENTIFIER = stooperOmitch.AdvancedGraphics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

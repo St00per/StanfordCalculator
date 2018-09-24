@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Calculator
 //
-//  Created by yakov shteffen on 21/02/2018.
+//  Created by kirill shteffen on 21/02/2018.
 //  Copyright © 2018 kirill shteffen. All rights reserved.
 //
 

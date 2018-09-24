@@ -2,7 +2,7 @@
 //  CalculatorBrain.swift
 //  Calculator
 //
-//  Created by yakov shteffen on 27/03/2018.
+//  Created by kirill shteffen on 27/03/2018.
 //  Copyright © 2018 kirill shteffen. All rights reserved.
 //
 
